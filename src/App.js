@@ -20,26 +20,7 @@ export default class App extends Component {
     return (
       <div className='App'>
         <Header />
-        <GameBoard>
-          <GuessRow>
-            <GuessPegs>
-              <GuessPeg />
-              <GuessPeg />
-              <GuessPeg />
-              <GuessPeg />
-            </GuessPegs>
-            <GuessScore />
-          </GuessRow>
-          <GuessRow>
-            <GuessPegs>
-              <GuessPeg />
-              <GuessPeg />
-              <GuessPeg />
-              <GuessPeg />
-            </GuessPegs>
-            <GuessScore />
-          </GuessRow>
-        </GameBoard>
+        <GameBoard />
         <ColorPicker />
         <GameTime />
         <NewGameBtn />

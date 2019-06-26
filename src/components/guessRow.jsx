@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function GuessRow() {
+const GuessRow = () => {
   return (
     <GuessRowComponent>
-      <p>Guess Row</p>
+      <p>Guess Row #</p>
     </GuessRowComponent>
   )
 }
@@ -14,3 +14,4 @@ const GuessRowComponent = styled.div`
   margin: 4px;
   padding: 4px;
 `
+export default GuessRow

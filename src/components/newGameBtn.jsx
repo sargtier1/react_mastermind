@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function NewGameBtn() {
+const NewGameBtn = () => {
   return (
     <NewGameBtnComponent>
       <p>New Game Btn</p>
@@ -14,3 +14,5 @@ const NewGameBtnComponent = styled.div`
   margin: 4px;
   padding: 4px;
 `
+
+export default NewGameBtn
