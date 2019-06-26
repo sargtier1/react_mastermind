@@ -9,4 +9,8 @@ export default function GuessPeg() {
   )
 }
 
-const GuessPegComponent = styled.div``
+const GuessPegComponent = styled.div`
+  border: 2px dotted red;
+  margin: 4px;
+  padding: 4px;
+`
