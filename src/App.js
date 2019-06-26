@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 
 import Header from './components/header'
 import GameBoard from './components/gameBoard'
-import GuessRow from './components/guessRow'
-import GuessPegs from './components/guessPegs'
-import GuessPeg from './components/guessPeg'
-import GuessScore from './components/guessScore'
 
 import ColorPicker from './components/colorPicker'
 import GameTime from './components/gameTime'

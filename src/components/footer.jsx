@@ -7,7 +7,9 @@ const Footer = () => {
 }
 
 const StyledFooter = styled.footer`
- 
+  border: 2px dotted red;
+  margin: 4px;
+  padding: 4px;
 `
 
 export default Footer

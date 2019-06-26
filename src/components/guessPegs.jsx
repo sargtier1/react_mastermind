@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import GuessPeg from './guessPeg'
 
 export default function GuessPegs() {
   return (
     <GuessPegsComponent>
-      <p>Guess Pegs</p>
+      <GuessPeg />
+      <GuessPeg />
+      <GuessPeg />
+      <GuessPeg />
     </GuessPegsComponent>
   )
 }
