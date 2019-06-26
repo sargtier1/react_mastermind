@@ -5,6 +5,7 @@ import GuessPeg from './guessPeg'
 export default function GuessPegs() {
   return (
     <GuessPegsComponent>
+     <p>Guess Pegs (plural)</p>
       <GuessPeg />
       <GuessPeg />
       <GuessPeg />

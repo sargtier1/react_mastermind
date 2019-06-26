@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 import GuessRow from './guessRow'
-import GuessPegs from './guessPegs'
-import GuessPeg from './guessPeg'
 
 const GameBoard = () => {
   return (
