@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const ColorPicker = () => {
   return (
     <ColorPickerComponent>
-      <h2>Color Picker here</h2>
+      <p>Color Picker here</p>
     </ColorPickerComponent>
   )
 }

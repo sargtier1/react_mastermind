@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function GuessPeg() {
   return (
     <GuessPegComponent>
-      <h1>Guess Peg (singular)</h1>
+      <p>Guess Peg (singular)</p>
     </GuessPegComponent>
   )
 }
@@ -14,3 +14,5 @@ const GuessPegComponent = styled.div`
   margin: 4px;
   padding: 4px;
 `
+
+

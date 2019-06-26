@@ -4,8 +4,7 @@ import styled from 'styled-components'
 const GameBoard = () => {
   return (
     <GameBoardComponent>
-      <h1>Gameboard Here</h1>
-      <p>soon to be available</p>
+      <p>Gameboard Here</p>
     </GameBoardComponent>
   )
 }

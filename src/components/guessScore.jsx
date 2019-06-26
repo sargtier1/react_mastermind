@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from 'styled'
+import styled from 'styled-components'
 
 export default function GuessScore() {
   return (
     <GuessScoreComponent>
-      <h1>Guess Score</h1>
+      <p>Guess Score</p>
     </GuessScoreComponent>
   )
 }

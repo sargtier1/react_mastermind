@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function GameTime() {
   return (
     <GameTimeComponent>
-      <h1>Game timer</h1>
+      <p>Game timer</p>
     </GameTimeComponent>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import styled from 'styled-components'
 
 export default function GuessRow() {
   return (
     <GuessRowComponent>
-      <h1>Guess Row</h1>
+      <p>Guess Row</p>
     </GuessRowComponent>
   )
 }

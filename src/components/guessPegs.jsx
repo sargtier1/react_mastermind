@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function GuessPegs() {
   return (
     <GuessPegsComponent>
-      <h1>Guess Pegs</h1>
+      <p>Guess Pegs</p>
     </GuessPegsComponent>
   )
 }
